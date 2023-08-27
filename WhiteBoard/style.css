@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #c7bebe;
+  }
+
+.main-container{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+#WhiteBoard{
+    width: 800px;
+    height: 600px;
+    border: 3px solid #000;
+    background-color: #fff;
+    cursor:crosshair;
+}
