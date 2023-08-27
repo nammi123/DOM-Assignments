@@ -8,4 +8,4 @@ Now create 2 functions changeColor() and changeShape() and apply conditions for 
 For styling add css file.
 
 # Hosted Link:-
-https://nammi123.github.io/homework-9/Change%20Shape/index.html
+https://nammi123.github.io/DOM-Assignments/Change%20Shape/index.html
