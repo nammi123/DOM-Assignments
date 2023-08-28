@@ -52,5 +52,10 @@ canvas.addEventListener("mouseout", stop);
 
 deleteButton.addEventListener("click", cleanBoard);
 undoButton.addEventListener("click", undoWork);
+
 ```
-# Hosted Link:- ![image](https://github.com/nammi123/DOM-Assignments/assets/96935962/bcb9a977-46f4-4654-a58d-34d4ca8d0396)
+# Host Link:
+https://nammi123.github.io/DOM-Assignments/WhiteBoard/index.html
+
+# Screenshot of UI:- ![image](https://github.com/nammi123/DOM-Assignments/assets/96935962/bcb9a977-46f4-4654-a58d-34d4ca8d0396)
+
