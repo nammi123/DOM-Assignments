@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(tip\ images\ 2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1% 0%;
+  }
+  #form_container{
+    width: 30%;
+    height: 100%;
+    background-color:rgb(250, 64, 95);
+    padding: 1%;
+  }
+  #form_container>h1{
+    text-align: center;
+    height: 10%;
+    margin: 0%;
+  }
+  #form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 90%;
+    background-color: white;
+  }
+  #calcbtn{
+    width: 100%;
+    padding: 4% 0%;
+    font-size: 130%;
+    background-color: rgb(23, 2, 2);
+    color: white;
+    border: 2px solid grey;
+  }
+  h1{
+    color:maroon ;
+  }
+  label{
+    color: maroon;
+    font-size: 130%;
+    font-weight: 700;
+  }
