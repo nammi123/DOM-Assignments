@@ -1,5 +1,7 @@
 # Whiteboard
 
+# Host Link:
+https://nammi123.github.io/DOM-Assignments/WhiteBoard/index.html
 ## HTML file
 Firstly we are creating html file for board structure. Inside the body tag we create the main-container div for the whiteboard after then we create 2 button tag
 first button for delete and the second button for undo After that we are using canvas tag for graphics.
@@ -54,8 +56,5 @@ deleteButton.addEventListener("click", cleanBoard);
 undoButton.addEventListener("click", undoWork);
 
 ```
-# Host Link:
-https://nammi123.github.io/DOM-Assignments/WhiteBoard/index.html
-
 # Screenshot of UI:- ![image](https://github.com/nammi123/DOM-Assignments/assets/96935962/bcb9a977-46f4-4654-a58d-34d4ca8d0396)
 
