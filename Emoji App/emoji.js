@@ -46,7 +46,6 @@ console.log(submitButton)
   });
 };
 
-
 if(searchField.value == ""){
 
 	submitButton.style.display = "none"
