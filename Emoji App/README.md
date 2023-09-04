@@ -1,5 +1,5 @@
 # Emoji App
-In this task we can search any emoji simply search the name.
+In this task, we can search for any emoji by simply search the name.
 
 # Hosted Link:-
 https://nammi123.github.io/DOM-Assignments/Emoji%20App/emoji.html
