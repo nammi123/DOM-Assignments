@@ -1,0 +1,65 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+    background: url("https://media.istockphoto.com/id/591441250/photo/mountain-landscape.webp?b=1&s=170667a&w=0&k=20&c=RzUitOiCNkK5xwp6RnFJ_7kT9xMAK4umYfmbQKVdduw=");
+    background-size: cover; 
+    overflow: hidden; 
+
+  }
+  .container img{
+    background-size: cover;
+  }
+
+  h2{
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: whitesmoke;
+    text-align: center;
+  }
+
+  .main-container{
+    display: flex;
+  }
+
+.main-container div{
+    margin: 5px;
+    position: relative;
+   
+}
+
+.main-container span {
+    width: 100px;
+    height: 80px;
+    background: rgb(227, 81, 156);
+    opacity: 0.8;
+    color: white;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .main-container .text {
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: rgb(229, 12, 34);
+    opacity: 0.8;
+  }
+
+  .main-container .amPm {
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background: rgb(44, 201, 44);
+  }
