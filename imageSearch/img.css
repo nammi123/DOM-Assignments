@@ -67,3 +67,49 @@ form button{
     cursor: pointer;
     display: none;
 }
+
+.searchResult{
+    width:80%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+
+.searchResult img{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.searchResult a {
+    padding: 10px;
+    display: block;
+    color: #f9f9f9;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .searchResult:hover a {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  #showMore {
+    background-color: #008cba;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    display: none;
+  }
+  
+  .showMore:hover {
+    background-color: #0077b5;
+  }
+  
