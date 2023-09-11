@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    list-style: none;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("https://images.unsplash.com/photo-1587911146207-813e19d079f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGltJTIwbGlnaHR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60");
+    background-size: cover;
+}
+
+.container {
+    width: 70%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 8px white;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.month-year {
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.calender {
+    width: 100%;
+    height: 60%;
+}
+
+.calender ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calender ul li {
+    width: calc(100%/7);
+    text-align: center;
+    padding-top: 1.5%;
+    color: white;
+}
+
+.week {
+    height: 15%;
+    font-size: larger;
+}
+
+.week>li {
+    border-radius: 10px;
+    background-color: rgba(255, 69, 0, 0.5);
+}
+
+.day {
+    height: 85%;
+}
+
+.day>li:hover {
+    background-color: white;
+    color: black;
+    border-radius: 7px;
+}
+
+.active {
+    background-color: green;
+    border-radius: 5px;
+}
+
+.date {
+    width: 96%;
+    height: 15%;
+}
+
+select {
+    font-size: larger;
+    padding: 1%;
+    margin-right: 2%;
+}
+
+.EnterDate {
+    font-size: larger;
+    padding: 1%;
+    margin-right: 2%;
+    width: 20%;
+    border-radius: 10px;
+}
+
+.submit {
+    font-size: larger;
+    padding: 1%;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:768px) {
+    .container {
+        width: 95%;
+    }
+}
