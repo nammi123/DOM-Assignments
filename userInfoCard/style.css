@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: azure;
+}
+
+.main-container {
+    background-color: #0eecb4;
+    border-radius: 10px;
+    box-shadow: rebeccapurple 1px 3px 9px;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+  }
+
+h1{
+    font-size: 24px;
+    color: #ec5555;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+    font-family: cursive;
+    border-bottom: 3px outset rgb(217, 62, 217);
+}
+
+h1:hover{
+    color: blueviolet;
+    scale: 0.9;
+}
+
+
+.field {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
+
+  .label {
+    font-weight: 500;
+    color: #f58b4e;
+    flex: 1;
+  }
+
+  .userInfo span {
+    flex: 2;
+    color: #f68a6c;
+    text-align: left;
+    padding-left: 10px;
+  }
+
+  .infoCard {
+    text-align: center;
+  }
